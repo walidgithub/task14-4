@@ -17,6 +17,7 @@ class Flowers extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Center(
                     child: Column(
@@ -35,9 +36,6 @@ class Flowers extends StatelessWidget {
                         ),
                       ],
                     ),
-                  ),
-                  SizedBox(
-                    width: 120,
                   ),
                   CircleAvatar(
                     radius: 25,
